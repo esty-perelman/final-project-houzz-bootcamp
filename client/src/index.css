@@ -1,0 +1,32 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.appChatbotContainer {
+  border-radius: 5px;
+  bottom: 40px;
+  box-shadow: 5px 5px 13px rgb(91 81 81 / 40%);
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  position: fixed;
+  right: 40px;
+  z-index: 6;
+}
+
+
+.react-chatbot-kit-chat-container {
+  position: relative;
+  width: 275px;
+}
